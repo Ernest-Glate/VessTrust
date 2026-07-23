@@ -181,7 +181,7 @@ export default function ForIndividuals() {
                   <Key className="w-4 h-4 text-gold" />
                 </div>
                 <div>
-                  <h5 className="text-slate-900 text-base font-playfair font-semibold mb-1">Consent you control &mdash; revoke anytime</h5>
+                  <h5 className="text-slate-900 text-base font-playfair font-semibold mb-1">Consent you control, revoke anytime</h5>
                   <p className="text-slate-600 text-xs leading-relaxed font-light">
                     You decide who queries your record. Authorization parameters are managed entirely by you, allowing you to revoke access keys immediately.
                   </p>

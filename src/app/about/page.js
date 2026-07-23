@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import TimelinePhase from "@/components/TimelinePhase";
 
@@ -52,12 +53,19 @@ export default function About() {
       {/* SECTION 2: FOUNDER SECTION */}
       <section className="py-24 bg-white border-b border-slate-200/80">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
-          {/* Headshot / Initial Visual */}
+          {/* Headshot */}
           <div className="md:col-span-4 flex justify-center">
-            <div className="relative w-48 h-48 rounded-full border-2 border-gold flex items-center justify-center bg-[#0E1629] shadow-lg">
-              <span className="font-playfair text-white text-5xl font-semibold select-none">EG</span>
-              {/* Abstract overlay ring */}
-              <div className="absolute inset-2 border border-gold/10 rounded-full" />
+            <div className="relative w-52 h-52 sm:w-60 sm:h-60 md:w-72 md:h-72 rounded-full border-2 border-gold shadow-xl overflow-hidden shrink-0">
+              <Image
+                src="/ernest-glate.jpg"
+                alt="Ernest Glate, Founder of VessTrust"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 640px) 208px, (max-width: 768px) 240px, 288px"
+                priority
+              />
+              {/* Subtle gold ring overlay */}
+              <div className="absolute inset-0 rounded-full ring-2 ring-gold/20 pointer-events-none" />
             </div>
           </div>
 
@@ -71,7 +79,7 @@ export default function About() {
               I&apos;m Ernest Glate, a software engineer and entrepreneur based in Accra, Ghana. I founded Lncksys, a registered Ghanaian software company.
             </p>
             <p className="text-slate-600 text-sm leading-relaxed font-light">
-              VessTrust emerged from building VessPay — our MoMo wallet for the African diaspora — and spending a year inside Ghana&apos;s mobile money infrastructure. I kept seeing the same gap: hundreds of millions of Africans with rich, credit-relevant transaction histories that no lender could access. VessTrust is the infrastructure that closes that gap.
+              VessTrust emerged from building VessPay, our MoMo wallet for the African diaspora, and spending a year inside Ghana&apos;s mobile money infrastructure. I kept seeing the same gap: hundreds of millions of Africans with rich, credit-relevant transaction histories that no lender could access. VessTrust is the infrastructure that closes that gap.
             </p>
           </div>
         </div>
@@ -95,7 +103,7 @@ export default function About() {
               variants={fadeUp}
               className="text-[#0E1629] font-playfair italic text-2xl md:text-3xl leading-relaxed max-w-3xl mx-auto"
             >
-              <span className="text-gradient-gold block">&ldquo;Make African mobile money behaviour count — for credit, for access, for financial dignity.&rdquo;</span>
+              <span className="text-gradient-gold block">&ldquo;Make African mobile money behaviour count, for credit, for access, for financial dignity.&rdquo;</span>
             </motion.h2>
           </motion.div>
         </div>

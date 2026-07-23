@@ -62,7 +62,7 @@ export default function Home() {
               variants={fadeUp}
               className="text-slate-600 text-base md:text-lg leading-relaxed max-w-lg mb-10 font-light"
             >
-              VessTrust converts mobile money transaction history into a portable credit score — for anyone, anywhere mobile money is live in Africa.
+              VessTrust converts mobile money transaction history into a portable credit score, available to anyone, anywhere mobile money is live in Africa.
             </motion.p>
 
             <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -119,7 +119,7 @@ export default function Home() {
               variants={fadeUp}
               className="text-slate-600 text-base md:text-lg leading-relaxed max-w-3xl mx-auto font-light"
             >
-              A market trader who has sent MoMo payments to 20 suppliers every week for six years, pays her bills on time, and saves consistently — cannot get a GHS 500 loan. Not because she&apos;s not creditworthy. Because her financial life is invisible to every bank on the continent.
+              A market trader who has sent MoMo payments to 20 suppliers every week for six years, pays her bills on time, and saves consistently, cannot get a GHS 500 loan. Not because she&apos;s not creditworthy. Because her financial life is invisible to every bank on the continent.
             </motion.p>
 
             <motion.div

@@ -62,7 +62,7 @@ export default function Waitlist() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="text-slate-600 text-sm md:text-base font-light max-w-2xl mx-auto leading-relaxed"
           >
-            Join the waitlist &mdash; whether you&apos;re an individual who wants to see your score, or a lender who wants to access a market you&apos;ve never been able to reach.
+            Join the waitlist. Whether you&apos;re an individual who wants to see your score, or a lender who wants to access a market you&apos;ve never been able to reach, there&apos;s a seat for you.
           </motion.p>
         </div>
       </section>

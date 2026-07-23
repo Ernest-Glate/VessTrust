@@ -55,7 +55,7 @@ export default function PersonaPanel() {
       name: "Aminata Diallo",
       subtitle: "Aminata's seasonal payment patterns unlock pre-harvest financing.",
       description:
-        "Aminata cultivates cocoa. Her income is highly seasonal — spiking during harvest and low during pre-planting. Traditional commercial scorecards flag her irregular monthly flows as high-risk. VessTrust's model analyzes cocoa cooperative payment records and input purchase schedules (bill_consistency), recognizing seasonal cycles rather than negative flags, providing an adjusted score of 690 to secure crop financing.",
+        "Aminata cultivates cocoa. Her income is highly seasonal, spiking during harvest and low during pre-planting. Traditional commercial scorecards flag her irregular monthly flows as high-risk. VessTrust's model analyzes cocoa cooperative payment records and input purchase schedules (bill_consistency), recognizing seasonal cycles rather than negative flags, providing an adjusted score of 690 to secure crop financing.",
       graphic: (
         <div className="w-64 h-64 relative flex items-center justify-center bg-[#F8F8F6] rounded-full border border-gold/15 overflow-hidden shadow-inner">
           {/* Wave/Season abstract lines */}
